@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import "./newPrompt.css";
+import "./newprompt.css";
 import Upload from "../upload/Upload";
 import { IKImage } from "imagekitio-react";
 import model from "../../lib/gemini";
@@ -18,11 +18,15 @@ const NewPrompt = ({ data }) => {
 
   const chat = model.startChat({
     history: [
-      data?.history.map(({ role, parts }) => ({
-        role,
-        parts: [{ text: parts[0].text }],
-      })),
-    ],
+      {
+      role: "user",
+      parts: [ { text: "Hello, I have 2 dogs in my house." }],
+      },
+      {
+      role: "model",
+      parts: [{ text: "Great to meet you. What would you like to know?" }],
+      },
+      ],
     generationConfig: {
       // maxOutputTokens: 100,
     },
