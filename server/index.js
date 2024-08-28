@@ -1,5 +1,5 @@
 import express from "express";
-
+import ImageKit from "imagekit";
 
 const port = process.env.PORT || 3000;
 const app = express();
