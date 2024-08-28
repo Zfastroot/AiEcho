@@ -3,7 +3,13 @@ import React from 'react'
 
 function ChatPage() {
   return (
-    <div>ChatPage</div>
+    <div className="chatPage">
+    <div className="wrapper">
+      <div className="chat">
+        
+      </div>
+    </div>
+  </div>
   )
 }
 
