@@ -12,10 +12,10 @@ function ChatList() {
       <hr />
       <span className="title">RECENT CHATS</span>
       <div className="list">
-        <span>chat 1</span>
-        <span>chat 1</span>
-        <span>chat 1</span>
-        <span>chat 1</span>
+        <p>Chat 1</p>
+        <p>Chat 1</p>
+        <p>Chat 1</p>
+        <p>Chat 1</p>
       </div>
       <hr />
       <div className="upgrade">
