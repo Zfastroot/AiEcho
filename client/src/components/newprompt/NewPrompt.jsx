@@ -30,7 +30,7 @@ function NewPrompt() {
         )}
 
         <div className="endChat" ref={endRef}></div>
-        <form className="newForm" ref={formRef}>
+        <form className="newForm" >
             <Upload setImg={setImg} />
             <input id="file" type="file" multiple={false} hidden />
             <input type="text" name="text" placeholder="Ask anything..." />
