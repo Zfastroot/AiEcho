@@ -6,7 +6,18 @@ function ChatPage() {
     <div className="chatPage">
     <div className="wrapper">
       <div className="chat">
-        
+        <div className="message">message</div>
+        <div className="message user">message user </div>
+        <div className="message">message</div>
+        <div className="message user">message user </div>
+        <div className="message">message</div>
+        <div className="message user">message user </div>
+        <div className="message">message</div>
+        <div className="message user">message user </div>
+        <div className="message">message</div>
+        <div className="message user">message user </div>
+        <div className="message">message</div>
+        <div className="message user">message user </div>
       </div>
     </div>
   </div>
