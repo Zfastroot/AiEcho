@@ -1,7 +1,6 @@
 import React from 'react'
-import { useEffect, useRef } from "react"
+import { useEffect, useRef ,useState} from "react"
 import "./newprompt.css"
-import { useEffect, useRef } from "react"
 import Upload from './../upload/Upload'
 
 
@@ -31,7 +30,7 @@ function NewPrompt() {
         )}
 
         <div className="endChat" ref={endRef}></div>
-        <form className="newForm" onSubmit={handleSubmit} ref={formRef}>
+        <form className="newForm" ref={formRef}>
             <Upload setImg={setImg} />
             <input id="file" type="file" multiple={false} hidden />
             <input type="text" name="text" placeholder="Ask anything..." />
