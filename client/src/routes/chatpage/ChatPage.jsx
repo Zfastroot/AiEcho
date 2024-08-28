@@ -1,5 +1,6 @@
 import "./chatpage.css"
 import React from 'react'
+import NewPrompt from "../../components/newprompt/NewPrompt"
 
 function ChatPage() {
   return (
