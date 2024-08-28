@@ -1,14 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { RouterProvider } from "react-router-dom";
+import { RouterProvider , createBrowserRouter } from "react-router-dom"
 import './index.css'
 import HomePage from "./routes/homepage/HomePage"
-import DashboardLayout from './layouts/dashboardlayout/DashboardLayout';
-import RootLayout from './layouts/rootlayout/RootLayout';
+import DashboardLayout from './layouts/dashboardlayout/DashboardLayout'
+import RootLayout from './layouts/rootlayout/RootLayout'
 import SignInPage from './routes/signinpage/SignInPgae'
 import SignUpPage from './routes/signuppage/SignUpPage'
 import ChatPage from './routes/chatpage/ChatPage'
 import DashboardPage from './routes/dashboardpage/DashboardPage'
+
 
 const router = createBrowserRouter([
   {
