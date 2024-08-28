@@ -1,6 +1,6 @@
 import React from 'react'
 import "./newprompt.css"
-
+import { useEffect, useRef } from "react";
 
 
 
